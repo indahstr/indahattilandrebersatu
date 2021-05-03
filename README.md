@@ -38,9 +38,9 @@ untuk bekerja bersama sama cth github, google docs, google meet>ibebaskan sesuai
 5. Visual Studio : untuk menuliskan kode program
 
 Pembagian kerja:
-Indah : membuat code program, UI
-Andre : membuat code program, konten kuis
-Attila : membuat code program, riset 
+* Indah : membuat code program, UI
+* Andre : membuat code program, konten kuis
+* Attila : membuat code program, riset 
 
 
 ## Lisensi
