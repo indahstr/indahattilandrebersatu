@@ -40,9 +40,8 @@ untuk bekerja bersama sama cth github, google docs, google meet>ibebaskan sesuai
 Tools :
 1. Github : untuk version controlling
 2. Google Meet & grup line: untuk berkoordinasi
-3. Google docs : untuk membuat proposal
-4. Figma : untuk mendesign UI
-5. Visual Studio : untuk menuliskan kode program
+3. Figma : untuk mendesign UI
+4. Visual Studio : untuk menuliskan kode program
 
 Pembagian kerja:
 * Indah : membuat code program, UI
