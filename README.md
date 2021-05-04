@@ -24,6 +24,11 @@ diusahakan serapih dan seindah mungkin. tools yang digunakan dalam pembuatan ran
 dibebaskan sesuai kreatifitas kalian
 !-->
 https://www.figma.com/file/eGRJDzXZopuD9TcxjkGrS9/Mockup?node-id=10%3A2
+![](img/Landing_Page.png)
+![](img/Tema_kuis_1.png)
+![](img/Tema_kuis_1-1.png)
+![](img/Tema_kuis_1-2.png)
+![](img/Skor_akhir.png)
 
 ## Rencana Pengerjaan Projek
 <!--
