@@ -4,8 +4,8 @@
 
 using namespace std;
 
-string dataNama[3]{"Indah Sutriyati","Andre Nathaniel A.","M. Attila An Naufal"}; // isiin Nama mahasiswaa (Sesuaiin sm dataNPM urutannya)
-int dataNpm[3]{40,42,48};
+string dataNama[3]{"Andre Nathaniel A.","M. Attila An Naufal","Indah Sutriyati"}; // isiin Nama mahasiswaa (Sesuaiin sm dataNPM urutannya)
+int dataNpm[3]{42,48,40};
 
 struct treeNode{
     int npm;
@@ -35,7 +35,7 @@ void insertBST(Tree& root,pointerTree New){
     }
 }
 
-void inOrder(Tree& root){                       // Nanti mau diubah
+void inOrder(Tree& root){                    // Nanti mau diubah
     if(root!=nullptr){
         inOrder(root->Left);
         cout<<"\nNPM\t:"<<root->npm<<"\t\tNama\t: "<<root->nama<<endl;
@@ -43,9 +43,25 @@ void inOrder(Tree& root){                       // Nanti mau diubah
     }
 }
 
+string cariNamaMhs(Tree& root, int npm){
+    if(root != nullptr){
+        if(root->npm == npm){
+            return root->nama;
+        }
+        if(root->npm < npm){
+            return cariNamaMhs(root->Right,npm);
+        }else {
+            return cariNamaMhs(root->Left,npm);
+        }
+    }
+    return "noName";
+}
+
+
 void createDataMhs(Tree& root,pointerTree New){
     for(int i=0;i<3;i++){
         createNodeTree(New,dataNpm[i],dataNama[i]);
         insertBST(root,New);
     }
 }
+

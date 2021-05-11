@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
-#include "NPM.h"
+#include "BST_DataMhs.h"
+#include "LinkedList_Soal.h"
+#include "Stack_Points.h"
 
 using namespace std;
 
@@ -9,7 +11,7 @@ using namespace std;
 
 
 int main(){
-    cout<<"Program Runnin'";        
+    cout<<"Program Runnin'\n";        
 
     // Variables
     Tree pohon = nullptr;
@@ -17,4 +19,6 @@ int main(){
     
     createDataMhs(pohon,New);
     inOrder(pohon);
+
+    cout<<"\nNAMA NPM 48 \t: "<<cariNamaMhs(pohon,48);
 }
