@@ -4,7 +4,7 @@
 
 using namespace std;
 
-string dataNama[3]{"Andre Nathaniel A.","M. Attila An Naufal","Indah Sutriyati","Ariq Hakim Ruswadi","Rommel Malik Kusnadi",
+string dataNama[68]{"Andre Nathaniel A.","M. Attila An Naufal","Indah Sutriyati","Ariq Hakim Ruswadi","Rommel Malik Kusnadi",
                   "Affan Rifqy Kurniadi","Aulia Rahmanita","Alfadli Maulana Siddik","Hali Putri Aisyah","Rangga Putra",
                    "Anggie Forestry","Wafi Fahruzzaman","Rizky Mahardika Hariyanto","Faiq Muhammad","Della Fauziyyah Husna",
                    "Rihlan Lumenda Suherman","Nawang Ilmi Adzani","Nanda Raihan Sukma","Muhammad Daffa Alifiandi","Mohammad Keenan Febriansyah",
@@ -18,7 +18,7 @@ string dataNama[3]{"Andre Nathaniel A.","M. Attila An Naufal","Indah Sutriyati",
                    "Bismo Panji Kusumo","Amariel Danendra Dagna","Deani Puteri Virdiana","Alya Raisa Hidayat","Andyka Baswara Putra",
                    "Zahran Hanif Fathanmubin","Muhamad Davio Athallah","Muhammad Ariiq Rakha Shafa","Hanifan Ayusti Khairunnisa","Muthia Azzahra",
                    "Abraham Javier Sebastian Situmorang","Satriyatama Tristan Suharjono","Akmal Lutfi Muzzaki"}; // isiin Nama mahasiswaa (Sesuaiin sm dataNPM urutannya)
-int dataNpm[3]{42,48,40,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,41,43,44,45,46,47,49,50,
+int dataNpm[68]{42,48,40,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,41,43,44,45,46,47,49,50,
               51,52,53,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69}; //npm 54 udah pindah sejak dulu
 
 struct treeNode{
