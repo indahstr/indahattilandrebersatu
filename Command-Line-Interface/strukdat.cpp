@@ -1,3 +1,5 @@
+// Versi CLI dari Quiz_Himatif. 
+// Buat ngasih gambaran penggunaan Struktur Data nya
 #include <iostream>
 #include <string>
 #include <windows.h>
@@ -24,10 +26,14 @@ int main(){
     linkedList head = nullptr;
     pointerLL NewLL = nullptr;
     char answer;
+    Stack Top = nullptr;
+    pointerStack NewStack = nullptr;
+
     
     createDataMhs(pohon,NewTree);
     createSoal(head,NewLL);
     pointerLL curr = head; // Penunjuk soal
+    createStack(Top);
     
     // inOrder(pohon); // buat ngecek pohon
     // traverseSoal(head); // buat ngecek soal
@@ -69,11 +75,24 @@ int main(){
     while(curr != nullptr){
         cout<<"\n\n"<<curr->noSoal<<". "<< curr->soal<<"\n\tA. "<<curr->opsiA<<"\n\tB. "<<curr->opsiB<<"\n\tC. "<<curr->opsiC<<"\n\tD. "<<curr->opsiD<<"\n\nJawab : ";cin>>answer; 
         if(answer == curr->jawaban){
-            point++;
-        }curr = curr->next;
+            createNodeStack(NewStack,curr->tema,5);
+            push(Top,NewStack);
+        }else {
+            createNodeStack(NewStack,curr->tema,0);
+            push(Top,NewStack);
+        }
+        curr = curr->next;
         system("cls");
     }
-    cout<<point;
+
+    cout<<R"(
+        Selamat!! Anda Telah Menyelesaikan seluruh 30 Soal Quiz_Himatif!
+        
+        Skor Anda : )";
+    cout<<"\n\n\tBadan Kelengkapan Himatif: "<<getPoint(Top,1)<<"\n\tSejarah Himatif\t\t: "<<getPoint(Top,2)
+        <<"\n\tTeknik Informatika\t: "<<getPoint(Top,3)<<"\n\n\tNama\t: "<<cariNamaMhs(pohon,npmUser)<<"\n\tNPM\t: 1408102000"<<npmUser;
+
+    
 
     
     
