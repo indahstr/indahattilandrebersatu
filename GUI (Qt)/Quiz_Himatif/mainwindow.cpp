@@ -20,6 +20,7 @@ QString NPM;
 void MainWindow::on_pushButton_Login_clicked()
 {
     QString username = ui->lineEdit_Username->text().toLower();
+    NPM = username.right(2);
     QString password = ui->lineEdit_Password->text().toLower();
 
 
