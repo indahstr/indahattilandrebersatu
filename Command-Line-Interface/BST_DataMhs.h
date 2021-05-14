@@ -73,7 +73,7 @@ string cariNamaMhs(Tree& root, int npm){
 
 
 void createDataMhs(Tree& root,pointerTree New){
-    for(int i=0;i<3;i++){
+    for(int i=0;i<68;i++){
         createNodeTree(New,dataNpm[i],dataNama[i]);
         insertBST(root,New);
     }

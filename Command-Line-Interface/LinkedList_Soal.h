@@ -55,7 +55,13 @@ void insertLast(linkedList& head, pointerLL New){
 
 void createSoal(linkedList& head, pointerLL New){
     for(int i=0; i<banyakSoal;i++){
-        createNodeLL(New,1,i+1,soal[i],opsiA[i],opsiB[i],opsiC[i],opsiD[i],jawaban[i]);
+        if(i<10){
+            createNodeLL(New,1,i+1,soal[i],opsiA[i],opsiB[i],opsiC[i],opsiD[i],jawaban[i]);
+        }else if(i >= 10 && i<20){
+            createNodeLL(New,2,i+1,soal[i],opsiA[i],opsiB[i],opsiC[i],opsiD[i],jawaban[i]);
+        }else {
+            createNodeLL(New,3,i+1,soal[i],opsiA[i],opsiB[i],opsiC[i],opsiD[i],jawaban[i]);
+        }
         insertLast(head,New);
     }
 }
