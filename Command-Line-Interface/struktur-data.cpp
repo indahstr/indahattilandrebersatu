@@ -74,6 +74,9 @@ int main(){
     
     while(curr != nullptr){
         cout<<"\n\n"<<curr->noSoal<<". "<< curr->soal<<"\n\tA. "<<curr->opsiA<<"\n\tB. "<<curr->opsiB<<"\n\tC. "<<curr->opsiC<<"\n\tD. "<<curr->opsiD<<"\n\nJawab : ";cin>>answer; 
+        if(int(answer)>=97 && int(answer)<=100){
+            answer = int(int(answer)-32  );
+        }
         if(answer == curr->jawaban){
             createNodeStack(NewStack,curr->tema,5);
             push(Top,NewStack);
@@ -90,7 +93,11 @@ int main(){
         
         Skor Anda : )";
     cout<<"\n\n\tBadan Kelengkapan Himatif: "<<getPoint(Top,1)<<"\n\tSejarah Himatif\t\t: "<<getPoint(Top,2)
-        <<"\n\tTeknik Informatika\t: "<<getPoint(Top,3)<<"\n\n\tNama\t: "<<cariNamaMhs(pohon,npmUser)<<"\n\tNPM\t: 1408102000"<<npmUser;
+        <<"\n\tTeknik Informatika\t: "<<getPoint(Top,3)<<"\n\n\tTotal Skor\t: "<<(getPoint(Top,1)+getPoint(Top,2)+getPoint(Top,3))/3 * 2<<"\n\n\tNama\t: "<<cariNamaMhs(pohon,npmUser)<<"\n\tNPM\t: 1408102000"<<npmUser<<"\n\n";
+
+
+    Sleep(3000);
+    return 0;
 
     
 
