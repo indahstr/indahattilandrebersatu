@@ -4,14 +4,14 @@
 
 using namespace std;
 
-const int banyakSoal= 10 ;     
+const int banyakSoal= 2 ;     
 
 string soal[banyakSoal] {"Siapa nama kahim yang menjabat di tahun ini?","Siapa nama Wakahim tahun ini?"};   // Isi soal-soal 
 string opsiA[banyakSoal] {"Andre","Attila"}; // Isi opsi A dari tiap soal (Pastiin urutannya sama misal ["OpsiA soal 1","OpsiA soal 2",...])
 string opsiB[banyakSoal] {"Indah","Anjay"};
 string opsiC[banyakSoal] {"Saddam","Evan"};
 string opsiD[banyakSoal] {"Bagas","Anki"};
-string jawaban[banyakSoal] {"C","D"} ; // Isi dengan opsi yang benar tiap soal
+char jawaban[banyakSoal] {'C','D'} ; // Isi dengan opsi yang benar tiap soal
 
 struct LLNode{
     int     tema;
@@ -50,5 +50,20 @@ void insertLast(linkedList& head, pointerLL New){
             tmp = tmp->next;
         }
         tmp->next = New;
+    }
+}
+
+void createSoal(linkedList& head, pointerLL New){
+    for(int i=0; i<banyakSoal;i++){
+        createNodeLL(New,1,i+1,soal[i],opsiA[i],opsiB[i],opsiC[i],opsiD[i],jawaban[i]);
+        insertLast(head,New);
+    }
+}
+
+void traverseSoal(linkedList head){
+    pointerLL temp = head;
+    while(temp!=nullptr){
+        cout<<temp->noSoal<<".\t"<< temp->soal<<'\n'<<temp->opsiA<<'\n'<<temp->opsiB<<'\n'<<temp->opsiC<<'\n'<<temp->opsiD<<"\nJawaban : "<<temp->jawaban<<"\n\n";
+        temp=temp->next;
     }
 }
