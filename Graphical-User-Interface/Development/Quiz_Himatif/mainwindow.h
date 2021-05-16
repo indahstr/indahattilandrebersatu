@@ -34,6 +34,8 @@ private slots:
 
     void on_pushButton_Masuk_clicked();
 
+    void on_pushButton_NextKon_clicked();
+
 private:
     Ui::MainWindow *ui;
     QString NPM; //coba2 taro variable

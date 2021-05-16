@@ -96,7 +96,7 @@ int main(){
         <<"\n\tTeknik Informatika\t: "<<getPoint(Top,3)<<"\n\n\tTotal Skor\t: "<<(getPoint(Top,1)+getPoint(Top,2)+getPoint(Top,3))/3 * 2<<"\n\n\tNama\t: "<<cariNamaMhs(pohon,npmUser)<<"\n\tNPM\t: 1408102000"<<npmUser<<"\n\n";
 
 
-    Sleep(3000);
+    Sleep(5000);
     return 0;
 
     

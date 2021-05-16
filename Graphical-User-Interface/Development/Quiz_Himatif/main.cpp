@@ -2,7 +2,6 @@
 
 
 #include <QApplication>
-#include <QFontDatabase>
 
 int main(int argc, char *argv[])
 {

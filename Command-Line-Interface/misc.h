@@ -1,19 +1,5 @@
 #include <windows.h>
 
-COORD coordinate{X:0, Y:0};
-
-void draw(int x,int y,char symbol,int delay){
-    Sleep(delay);
-    coordinate.X=x;
-    coordinate.Y=y;
-    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coordinate);
-    cout<<symbol;
-}
-
-void login(){
-
-};
-
 string getpass(bool show_asterisk=true)
 {
   const char BACKSPACE=8;
