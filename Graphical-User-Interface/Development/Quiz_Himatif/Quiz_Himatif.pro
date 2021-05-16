@@ -10,8 +10,7 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp \
-    struktur-data.cpp
+    mainwindow.cpp
 
 HEADERS += \
     BST_DataMhs.h \
