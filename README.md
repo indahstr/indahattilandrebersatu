@@ -25,7 +25,7 @@ dibebaskan sesuai kreatifitas kalian
 !-->
 https://www.figma.com/file/eGRJDzXZopuD9TcxjkGrS9/Mockup?node-id=10%3A2
 
-![](img/Landing_page.PNG)
+![](img/Landing_Page.png)
 ![](img/Login.PNG)
 ![](img/Login_error1.PNG)
 ![](img/Login_error2.PNG)
