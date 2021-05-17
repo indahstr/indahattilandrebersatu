@@ -17,19 +17,26 @@ Di masa pandemi saat ini, kita membutuhkan segala kegiatan berjalan dengan cepat
 ## Penjelasan Aplikasi
 Aplikasi ini menyediakan berbagai jenis soal seputar Himatif. Dengan bentuk soal berupa pilihan ganda. Apabila user menjawab benar, user akan mendapat poin. Apabila jawabannya salah, user tidak akan mendapat poin. Setelah kuis selesai dikerjakan, aplikasi akan menampilkan total poin yang didapatkan. 
 
-## Gambar Rancangan Antar Muka
+## Gambar Antar Muka
 <!--
 Buat rancangan antar muka selengkap mungkin sesuai fungsi aplikasinya. rancangan antar muka
 diusahakan serapih dan seindah mungkin. tools yang digunakan dalam pembuatan rancangan gambar
 dibebaskan sesuai kreatifitas kalian
 !-->
 https://www.figma.com/file/eGRJDzXZopuD9TcxjkGrS9/Mockup?node-id=10%3A2
-![](img/Landing_Page.png)
-![](img/Tema_kuis_1.png)
-![](img/Tema_kuis_1-1.png)
-![](img/Tema_kuis_1-2.png)
-![](img/Tema_kuis_2.png)
-![](img/Skor_akhir.png)
+
+![](img/Landing_page.PNG)
+![](img/Login.PNG)
+![](img/Login_error1.PNG)
+![](img/Login_error2.PNG)
+![](img/Quiz_page.PNG)
+![](img/Score_page.PNG)
+![](img/Score_page_(final).PNG)
+![](img/Treatment.PNG)
+
+Source (icon):
+1. <a href="https://storyset.com/work">Illustration by Freepik Storyset</a>
+2. <div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 ## Rencana Pengerjaan Projek
 <!--
