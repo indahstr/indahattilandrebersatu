@@ -4,6 +4,9 @@ Anggota Kelompok:
 * INDAH SUTRIYATI     (140810200040)
 * ANDRE NATHANIEL A.  (140810200042)
 * M. ATTILA AN-NAUFAL (140810200048)
+
+Link PPT: http://bit.ly/ppthimaifquiz
+
 ---
 ## Latar Belakang
 Di masa pandemi saat ini, kita membutuhkan segala kegiatan berjalan dengan cepat dan efektif. Dengan begitu, diperlukan alat/tools yang dapat memudahkan pekerjaan yang dilakukan. Di Himatif, terdapat program kerja CBS yang di dalamnya terdapat divisi asesor. Divisi asesor membutuhkan waktu yang tidak sedikit untuk melakukan penilaian terhadap peserta CBS mengenai pengetahuan mereka seputar Himatif. Maka dari itu, kami tertarik untuk membuat program yang dapat memudahkan asesor dalam menjalankan tugasnya.
